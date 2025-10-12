@@ -34,19 +34,6 @@ export default function Header() {
     >
       <div className="row headerContainer">
         <div className="head">
-          {/* Logo */}
-          <Link href="/" aria-label="Ithoka Microsystems Home">
-            <figure className="logo" style={{ borderRadius: '10px' }}>
-              <Image
-                className="logoImg"
-                src="/logos/logo.png"
-                alt="Ithoka Microsystems Logo - AI & Blockchain Consulting"
-                width={100}
-                height={50}
-                priority
-              />
-            </figure>
-          </Link>
 
           {/* Dropdown menu (mobile) */}
           <nav

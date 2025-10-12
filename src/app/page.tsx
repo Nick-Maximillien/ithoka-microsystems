@@ -131,7 +131,7 @@ export default function HomePage() {
         {/* About Teaser */}
         <section className="aboutTeaser" aria-labelledby="about-heading">
           <h3 id="about-heading">About Ithoka Microsystems</h3>
-          <p>
+          <p style={{textAlign: "left"}}>
             Ithoka Microsystems is a lean technical studio focused on AI and blockchain.
             We build useful tools, systems, and products that solve real problems for real people.
             Whether you&apos;re just starting out or scaling up, we can help turn your ideas into working solutions.
