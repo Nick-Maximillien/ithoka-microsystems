@@ -10,11 +10,11 @@ export const metadata: Metadata = {
     title: "📚 Blog Website Case Study | React + Strapi CMS",
     description:
       "A clean, dynamic, and mobile-responsive blog platform powered by React and Strapi CMS.",
-    url: "https://yourdomain.com/projects/blog-website",
+    url: "https://ithoka.vercel.app/ai-blockchain-projects/fullstack-projects/blog",
     siteName: "Nick Maximillien Portfolio",
     images: [
       {
-        url: "https://yourdomain.com/og/blog-website-cover.png",
+        url: "https://ithoka.vercel.app/logos/logo.png",
         width: 1200,
         height: 630,
         alt: "Blog Website Preview",
@@ -28,11 +28,11 @@ export const metadata: Metadata = {
     title: "📚 Blog Website Case Study | React + Strapi CMS",
     description:
       "A modern blog platform built with React and Strapi CMS for effortless publishing.",
-    images: ["https://yourdomain.com/og/blog-website-cover.png"],
+    images: ["https://ithoka.vercel.app/logos/logo.png"],
     creator: "@your_twitter_handle",
   },
   alternates: {
-    canonical: "https://yourdomain.com/projects/blog-website",
+    canonical: "https://ithoka.vercel.app/ai-blockchain-projects/fullstack-projects/blog",
   },
   robots: {
     index: true,
@@ -47,12 +47,12 @@ export default function Layout({ children }: { children: ReactNode }) {
     name: "Blog Website Case Study",
     description:
       "A modern blog platform built with React and Strapi CMS for effortless publishing.",
-    url: "https://yourdomain.com/projects/blog-website",
+    url: "https://ithoka.vercel.app/ai-blockchain-projects/fullstack-projects/blog",
     publisher: {
       "@type": "LocalBusiness",
       name: "Nick Maximillien",
-      url: "https://yourdomain.com",
-      image: "https://yourdomain.com/profile-photo.jpg",
+      url: "https://ithoka.vercel.app",
+      image: "https://ithoka.vercel.app/logos/logo.png",
       sameAs: [
         "https://twitter.com/your_twitter_handle",
         "https://github.com/Nick-Maximillien",
@@ -66,13 +66,13 @@ export default function Layout({ children }: { children: ReactNode }) {
     },
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://yourdomain.com/projects/blog-website",
+      "@id": "https://ithoka.vercel.app/ai-blockchain-projects/fullstack-projects/blog",
     },
-    image: "https://yourdomain.com/og/blog-website-cover.png",
+    image: "https://ithoka.vercel.app/logos/logo.png",
     author: {
       "@type": "Person",
       name: "Nick Maximillien",
-      url: "https://yourdomain.com",
+      url: "https://nick-maximillien.vercel.app",
     },
   };
 

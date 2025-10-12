@@ -6,17 +6,17 @@ export const metadata: Metadata = {
   description:
     "Explore Ithoka Microsystems' live and in-development AI & Blockchain R&D projects — from Agrosight AI to UrbanScope Chain.",
   alternates: {
-    canonical: "https://ithokamicrosystems.com/ai-blockchain-projects",
+    canonical: "https://ithoka.vercel.app/ai-blockchain-projects",
   },
   openGraph: {
     title: "AI & Blockchain Projects | Ithoka Microsystems",
     description:
       "Explore Ithoka Microsystems' live and in-development AI & Blockchain R&D projects — from Agrosight AI to UrbanScope Chain.",
-    url: "https://ithokamicrosystems.com/ai-blockchain-projects",
+    url: "https://ithoka.vercel.app/ai-blockchain-projects",
     siteName: "Ithoka Microsystems",
     images: [
       {
-        url: "https://ithokamicrosystems.com/images/shot3.png",
+        url: "https://ithoka.vercel.app/images/shot3.png",
         width: 1200,
         height: 630,
         alt: "Ithoka Microsystems projects overview",
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     title: "AI & Blockchain Projects | Ithoka Microsystems",
     description:
       "Explore Ithoka Microsystems' live and in-development AI & Blockchain R&D projects — from Agrosight AI to UrbanScope Chain.",
-    images: ["https://ithokamicrosystems.com/images/shot3.png"],
+    images: ["https://ithoka.vercel.app/images/shot3.png"],
   },
 };
 
@@ -48,9 +48,9 @@ export default function Layout({ children }: { children: React.ReactNode }) {
     "@type": "LocalBusiness",
     name: "Ithoka Microsystems",
     description: "AI & Blockchain systems firm focused on building lean, field-ready technology.",
-    url: "https://ithokamicrosystems.com",
-    logo: "https://ithokamicrosystems.com/images/logo.png",
-    image: "https://ithokamicrosystems.com/images/shot3.png",
+    url: "https://ithoka.vercel.app",
+    logo: "https://ithoka.vercel.app/logos/logo.png",
+    image: "https://ithoka.vercel.app/images/shot3.png",
     address: {
       "@type": "PostalAddress",
       addressLocality: "Nairobi",
@@ -58,7 +58,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
     },
     contactPoint: {
       "@type": "ContactPoint",
-      telephone: "+254700000000",
+      telephone: "+2547411327",
       contactType: "customer support",
       areaServed: "KE",
     },
@@ -77,13 +77,13 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         "@type": "ListItem",
         position: 1,
         name: "Home",
-        item: "https://ithokamicrosystems.com",
+        item: "https://ithoka.vercel.app",
       },
       {
         "@type": "ListItem",
         position: 2,
         name: "Projects",
-        item: "https://ithokamicrosystems.com/ai-blockchain-projects",
+        item: "https://ithoka.vercel.app/ai-blockchain-projects",
       },
     ],
   };

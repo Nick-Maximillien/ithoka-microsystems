@@ -16,17 +16,17 @@ export const metadata: Metadata = {
     "consulting",
   ],
   alternates: {
-    canonical: "https://ithokamicrosystems.com/services",
+    canonical: "https://ithoka.vercel.app/ai-microservices",
   },
   openGraph: {
     title: "Ithoka Microsystems — AI & Blockchain Services",
     description:
       "AI, Blockchain & Fullstack consulting and development. Lean engineering. Real outcomes.",
-    url: "https://ithokamicrosystems.com/services",
+    url: "https://ithoka.vercel.app/ai-microservices",
     type: "website",
     images: [
       {
-        url: "https://ithokamicrosystems.com/og-image.png",
+        url: "https://ithoka.vercel.app/logos/logo.png",
         width: 1200,
         height: 630,
         alt: "Ithoka Microsystems",
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Ithoka Microsystems — AI & Blockchain Services",
     description:
       "AI, Blockchain & Fullstack consulting and development. Lean engineering. Real outcomes.",
-    images: ["https://ithokamicrosystems.com/og-image.png"],
+    images: ["https://ithoka.vercel.app/logos/logo.png"],
   },
 };
 
@@ -48,10 +48,10 @@ export default function Layout({ children }: { children: ReactNode }) {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     name: "Ithoka Microsystems",
-    image: "https://ithokamicrosystems.com/og-image.png",
-    "@id": "https://ithokamicrosystems.com",
-    url: "https://ithokamicrosystems.com",
-    telephone: "+254700000000",
+    image: "https://ithoka.vercel.app/logos/logo.png",
+    "@id": "https://ithoka.vercel.app",
+    url: "https://ithoka.vercel.app",
+    telephone: "+254741134327",
     address: {
       "@type": "PostalAddress",
       streetAddress: "Nairobi Innovation Hub",

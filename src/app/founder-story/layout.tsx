@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     description:
       "Building lean, intelligent systems for agriculture, finance, and governance.",
     creator: "@NickMaxMwangangi",
-    images: ["https://ithoka.vercel.app/images/logo.jpg"],
+    images: ["https://ithoka.vercel.app/logos/logo.png"],
   },
 };
 
@@ -47,7 +47,7 @@ export default function Layout({ children }: { children: ReactNode }) {
     "@type": "LocalBusiness",
     "name": "Ithoka Microsystems",
     "url": "https://ithoka.vercel.app",
-    "image": "https://ithoka.vercel.app/images/logo.jpg",
+    "image": "https://ithoka.vercel.app/logos/logo.png",
     "description":
       "Ithoka Microsystems is a lean AI and blockchain systems firm building real-world solutions in agriculture, finance, and governance.",
     "address": {

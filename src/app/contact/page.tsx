@@ -35,7 +35,7 @@ export default function ContactPage() {
     '@context': 'https://schema.org',
     '@type': 'LocalBusiness',
     name: 'Ithoka Microsystems',
-    image: 'https://ithoka.vercel.app/og-image.png',
+    image: 'https://ithoka.vercel.app//logos/logo.png',
     description:
       'Ithoka Microsystems — AI & Blockchain engineering firm offering consulting, fullstack development, and R&D innovation.',
     url: 'https://ithoka.vercel.app/contact',

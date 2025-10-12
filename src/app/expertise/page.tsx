@@ -135,7 +135,7 @@ export default function SkillsPage() {
                 position: categoryIndex * 100 + skillIndex + 1,
                 name: skill.name,
                 description: skill.description,
-                url: `https://ithoka.com/skills#${encodeURIComponent(skill.name)}`
+                url: `https://ithoka.vercel.app/expertise#${encodeURIComponent(skill.name)}`
               }))
             )
           })

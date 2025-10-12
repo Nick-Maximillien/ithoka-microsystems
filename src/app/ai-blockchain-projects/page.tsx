@@ -90,9 +90,9 @@ export default function ProjectsPage() {
     "@type": "LocalBusiness",
     "name": "Ithoka Microsystems",
     "description": "AI & Blockchain systems firm focused on building lean, field-ready technology.",
-    "url": "https://ithokamicrosystems.com",
-    "logo": "https://ithokamicrosystems.com/images/logo.png",
-    "image": "https://ithokamicrosystems.com/images/shot3.png",
+    "url": "https://ithoka.vercel.app",
+    "logo": "https://ithoka.vercel.app/logos/logo.png",
+    "image": "https://ithoka.vercel.app/images/shot3.png",
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "Nairobi",
@@ -119,13 +119,13 @@ export default function ProjectsPage() {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://ithokamicrosystems.com"
+        "item": "https://ithoka.vercel.app"
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Projects",
-        "item": "https://ithokamicrosystems.com/ai-blockchain-projects"
+        "item": "https://ithoka.vercel.app/ai-blockchain-projects"
       }
     ]
   };
@@ -138,7 +138,7 @@ export default function ProjectsPage() {
           name="description"
           content="Explore Ithoka Microsystems' live and in-development AI & Blockchain R&D projects — from Agrosight AI to UrbanScope Chain."
         />
-        <link rel="canonical" href="https://ithokamicrosystems.com/ai-blockchain-projects" />
+        <link rel="canonical" href="https://ithoka.vercel.app/ai-blockchain-projects" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}

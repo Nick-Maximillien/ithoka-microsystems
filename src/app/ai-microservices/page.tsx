@@ -66,10 +66,10 @@ export default function ServicesPage() {
     '@context': 'https://schema.org',
     '@type': 'LocalBusiness',
     name: 'Ithoka Microsystems',
-    image: 'https://ithokamicrosystems.com/og-image.png',
-    '@id': 'https://ithokamicrosystems.com',
-    url: 'https://ithokamicrosystems.com',
-    telephone: '+254700000000',
+    image: 'https://ithoka.vercel.app/logos/logo.png',
+    '@id': 'https://ithoka.vercel.app',
+    url: 'https://ithoka.vercel.app',
+    telephone: '+254741134327',
     address: {
       '@type': 'PostalAddress',
       streetAddress: 'Nairobi Innovation Hub',
@@ -118,7 +118,7 @@ export default function ServicesPage() {
         author: 'Startup CTO',
         datePublished: '2025-09-05',
         reviewBody:
-          'They’re lean, fast, and technically sharp. One of the best engineering partners we’ve worked with.',
+          'They are lean, fast, and technically sharp. One of the best engineering partners we’ve worked with.',
         name: 'Great collaboration experience',
         reviewRating: {
           '@type': 'Rating',
@@ -140,15 +140,15 @@ export default function ServicesPage() {
           name="keywords"
           content="AI development, Blockchain solutions, Kenya AI, DeFi, Smart contracts, MVP development, consulting"
         />
-        <link rel="canonical" href="https://ithokamicrosystems.com/services" />
+        <link rel="canonical" href="https://ithoka.vercel.app/ai-microservices" />
         <meta property="og:title" content="Ithoka Microsystems — AI & Blockchain Services" />
         <meta
           property="og:description"
           content="AI, Blockchain & Fullstack consulting and development. Lean engineering. Real outcomes."
         />
-        <meta property="og:url" content="https://ithokamicrosystems.com/services" />
+        <meta property="og:url" content="https://ithoka.vercel.app/ai-microservices" />
         <meta property="og:type" content="website" />
-        <meta property="og:image" content="https://ithokamicrosystems.com/og-image.png" />
+        <meta property="og:image" content="https://ithoka.vercel.app/logos/logo.png" />
         <meta name="twitter:card" content="summary_large_image" />
         <script
           type="application/ld+json"

@@ -91,7 +91,7 @@ export default function AboutPage() {
         <p>
           We keep our execution lean and focused. Every project begins with clarity — identifying the real pain points — then 
           moves toward clean, deployable solutions. We don’t build hype; we build reliable systems that work in the field. 
-          Whether it’s an AI engine, blockchain protocol, or integrated platform, Ithoka Microsystems delivers measurable value.
+          Whether it is an AI engine, blockchain protocol, or integrated platform, Ithoka Microsystems delivers measurable value.
         </p>
       </section>
 

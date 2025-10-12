@@ -66,8 +66,8 @@ export default function HomePage() {
     "@context": "https://schema.org",
     "@type": "Organization",
     "name": "Ithoka Microsystems",
-    "url": "https://ithoka.com", // Replace with your actual domain
-    "logo": "https://ithoka.com/images/logo.jpg",
+    "url": "https://ithoka.vercel.app", // Replace with your actual domain
+    "logo": "https://ithoka.vercel.app/images/logo.jpg",
     "sameAs": [
       "https://www.linkedin.com/in/nicholas-muthoki", 
       "https://github.com/Nick-Maximillien"
@@ -80,10 +80,10 @@ export default function HomePage() {
     "@context": "https://schema.org",
     "@type": "WebSite",
     "name": "Ithoka Microsystems",
-    "url": "https://ithoka.com",
+    "url": "https://ithoka.vercel.app",
     "potentialAction": {
       "@type": "SearchAction",
-      "target": "https://ithoka.com/search?q={search_term_string}",
+      "target": "https://ithoka.vercel.app/search?q={search_term_string}",
       "query-input": "required name=search_term_string"
     }
   };

@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     siteName: "Ithoka Microsystems",
     images: [
       {
-        url: "https://ithoka.vercel.app/og-image.png",
+        url: "https://ithoka.vercel.app/logos/logo.png",
         width: 1200,
         height: 630,
         alt: "Ithoka Microsystems Contact Page",
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     title: "Contact Ithoka Microsystems",
     description:
       "Reach out to Ithoka Microsystems for AI & Blockchain solutions. Nairobi, Kenya.",
-    images: ["https://ithoka.vercel.app/og-image.png"],
+    images: ["https://ithoka.vercel.app/logos/logo.png"],
   },
   alternates: {
     canonical: "https://ithoka.vercel.app/contact",

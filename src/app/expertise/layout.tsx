@@ -23,11 +23,11 @@ export const metadata: Metadata = {
     title: 'Expertise | Ithoka Microsystems',
     description:
       'The technologies powering Ithoka Microsystems — AI, Blockchain, Fullstack, DevOps, Innovation.',
-    url: 'https://ithoka.com/expertise',
+    url: 'https://ithoka.vercel.app/expertise',
     siteName: 'Ithoka Microsystems',
     images: [
       {
-        url: '/images/og-image.png',
+        url: '/logos/logo.png',
         width: 1200,
         height: 630,
         alt: 'Ithoka Microsystems Expertise'
@@ -45,7 +45,7 @@ export const metadata: Metadata = {
     creator: '@ithoka'
   },
   alternates: {
-    canonical: 'https://ithoka.com/expertise'
+    canonical: 'https://ithoka.vercel.app/expertise'
   },
   robots: {
     index: true,
@@ -88,13 +88,13 @@ export default function Layout({ children }: { children: ReactNode }) {
                 '@type': 'ListItem',
                 position: 1,
                 name: 'Home',
-                item: 'https://ithoka.com'
+                item: 'https://ithoka.vercel.app'
               },
               {
                 '@type': 'ListItem',
                 position: 2,
                 name: 'Expertise',
-                item: 'https://ithoka.com/expertise'
+                item: 'https://ithoka.vercel.app/expertise'
               }
             ]
           })
