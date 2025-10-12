@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<url><loc>https://ithoka.vercel.app/team</loc><lastmod>2025-10-12T13:05:20.344Z</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+<url><loc>https://ithoka.vercel.app/in-progress</loc><lastmod>2025-10-12T13:05:20.346Z</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+<url><loc>https://ithoka.vercel.app</loc><lastmod>2025-10-12T13:05:20.346Z</lastmod><changefreq>weekly</changefreq><priority>1</priority></url>
+<url><loc>https://ithoka.vercel.app/ai-blockchain-projects</loc><lastmod>2025-10-12T13:05:20.346Z</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+<url><loc>https://ithoka.vercel.app/ai-microservices</loc><lastmod>2025-10-12T13:05:20.346Z</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+<url><loc>https://ithoka.vercel.app/contact</loc><lastmod>2025-10-12T13:05:20.346Z</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+<url><loc>https://ithoka.vercel.app/founder-story</loc><lastmod>2025-10-12T13:05:20.346Z</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+<url><loc>https://ithoka.vercel.app/expertise</loc><lastmod>2025-10-12T13:05:20.346Z</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+<url><loc>https://ithoka.vercel.app/ai-blockchain-projects/ai-projects/agrosight-ai</loc><lastmod>2025-10-12T13:05:20.346Z</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+<url><loc>https://ithoka.vercel.app/ai-blockchain-projects/blockchain-projects/ardhi-chain</loc><lastmod>2025-10-12T13:05:20.346Z</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+<url><loc>https://ithoka.vercel.app/ai-blockchain-projects/ai-projects/autobooks-ai</loc><lastmod>2025-10-12T13:05:20.346Z</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+<url><loc>https://ithoka.vercel.app/ai-blockchain-projects/fullstack-projects/ai-store</loc><lastmod>2025-10-12T13:05:20.346Z</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+<url><loc>https://ithoka.vercel.app/ai-blockchain-projects/fullstack-projects/blog</loc><lastmod>2025-10-12T13:05:20.346Z</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+<url><loc>https://ithoka.vercel.app/ai-blockchain-projects/blockchain-projects/urbanscope-chain</loc><lastmod>2025-10-12T13:05:20.346Z</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+<url><loc>https://ithoka.vercel.app/ai-blockchain-projects/blockchain-projects/voting-dapp</loc><lastmod>2025-10-12T13:05:20.346Z</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+<url><loc>https://ithoka.vercel.app/ai-blockchain-projects/fullstack-projects/aminika-health</loc><lastmod>2025-10-12T13:05:20.346Z</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+</urlset>
