@@ -44,6 +44,10 @@ export default function AboutPage() {
           in agriculture, finance, and governance. Our philosophy is simple — build smart, build lean, and deploy fast.
         </p>
       </header>
+      <div className="ctaButtons">
+            <Link href="/ai-blockchain-projects" className="ctaBtn">Explore Our Projects</Link>
+            <Link href="/onboard" className="ctaBtnOutline">Start Your Project</Link>
+          </div>
 
       <section aria-labelledby="core-capabilities" itemScope itemType="https://schema.org/ItemList">
         <h2 id="core-capabilities">Core Capabilities</h2>
@@ -94,15 +98,21 @@ export default function AboutPage() {
           Whether it is an AI engine, blockchain protocol, or integrated platform, Ithoka Microsystems delivers measurable value.
         </p>
       </section>
+      <div className="ctaButtons">
+            <Link href="/ai-blockchain-projects" className="ctaBtn">Explore Our Projects</Link>
+            <Link href="/onboard" className="ctaBtnOutline">Start Your Project</Link>
+          </div>
 
       <section className="ctaSection" aria-labelledby="partner">
         <h2 id="partner">Partner With Us</h2>
         <p>
           We collaborate with startups, businesses, NGOs, and public institutions to design and deploy practical AI and blockchain solutions. 
-          If you’re ready to build, test, or scale your next idea — we can help.
+          If you are ready to build, test, or scale your next idea — we can help.
         </p>
-        <Link href="/contact" className="ctaBtn">Get in Touch</Link>
       </section>
+        <div className='ctaSection'>
+        <Link href="/contact" className="ctaBtn">Get in Touch</Link>
+        </div>
 
       {/* your style untouched */}
       <style jsx>{`

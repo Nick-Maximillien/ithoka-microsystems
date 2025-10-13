@@ -111,7 +111,7 @@ export default function HomePage() {
           </p>
           <div className="ctaButtons">
             <Link href="/ai-blockchain-projects" className="ctaBtn">Explore Our Projects</Link>
-            <Link href="/contact" className="ctaBtnOutline">Start Your Project</Link>
+            <Link href="/onboard" className="ctaBtnOutline">Start Your Project</Link>
           </div>
         </div>
 
@@ -163,6 +163,12 @@ export default function HomePage() {
             ))}
           </div>
         </section>
+
+        <div className="ctaButtons" style={{marginBottom: '30px'}}>
+            <Link href="/ai-blockchain-projects" className="ctaBtn">Explore Our Projects</Link>
+            <Link href="/onboard" className="ctaBtnOutline">Start Your Project</Link>
+          </div>
+
 
         {/* CTA Section */}
         <section className="ctaSection" aria-labelledby="work-with-us-heading">

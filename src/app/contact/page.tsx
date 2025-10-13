@@ -1,8 +1,9 @@
 'use client';
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import Image from 'next/image';
 import Script from 'next/script';
 import emailjs from '@emailjs/browser';
+import Link from 'next/link';
 
 const contacts = [
   { name: 'Email', href: 'mailto:nicholasmuthoki@gmail.com', logo: '/images/email1.png' },
@@ -13,21 +14,28 @@ const contacts = [
 ];
 
 export default function ContactPage() {
-  const [formData, setFormData] = useState({ name: '', email: '', message: '' });
+  const [submitted, setSubmitted] = useState(false);
+  const formRef = useRef<HTMLFormElement>(null);
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
-    setFormData({ ...formData, [e.target.name]: e.target.value });
-  };
-
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+    if (!formRef.current) return;
+
     emailjs
-      .send('service_iwhkx4m', 'template_2qxlrws', formData)
+      .sendForm(
+        process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID!,
+        process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_IDS!,
+        formRef.current,
+        process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY!
+      )
       .then(() => {
-        alert('Message Sent Successfully!');
-        setFormData({ name: '', email: '', message: '' });
+        setSubmitted(true);
+        formRef.current?.reset();
       })
-      .catch(() => alert('Failed to send message. Try again later.'));
+      .catch((err) => {
+        console.error('EmailJS error:', err);
+        alert('Failed to send. Please try again later.');
+      });
   };
 
   // ✅ JSON-LD structured data for Google Knowledge Graph
@@ -35,7 +43,7 @@ export default function ContactPage() {
     '@context': 'https://schema.org',
     '@type': 'LocalBusiness',
     name: 'Ithoka Microsystems',
-    image: 'https://ithoka.vercel.app//logos/logo.png',
+    image: 'https://ithoka.vercel.app/logos/logo.png',
     description:
       'Ithoka Microsystems — AI & Blockchain engineering firm offering consulting, fullstack development, and R&D innovation.',
     url: 'https://ithoka.vercel.app/contact',
@@ -73,9 +81,14 @@ export default function ContactPage() {
       <header className="her">
         <h1 className="contactTitle">Contact</h1>
         <p className="contactSub">
-          Get in touch via email or social links below. We usually respond as soon as possible.
+          Get in touch via email or social links below. We usually respond promptly.
         </p>
       </header>
+      <div className="ctaButtons" style={{ marginBottom: '20px' }}>
+        <Link href="/onboard" className="ctaBtnOutline">
+          Start Your Project
+        </Link>
+      </div>
 
       <section className="contactIcons" aria-label="Contact Methods">
         {contacts.map((contact) => (
@@ -97,52 +110,67 @@ export default function ContactPage() {
         ))}
       </section>
 
-      <section aria-labelledby="contact-form">
-        <h2 id="contact-form" className="sr-only">Contact Form</h2>
-        <form onSubmit={handleSubmit} aria-label="Contact Form">
-          <h2>Send a Message</h2>
+      {!submitted ? (
+        <section aria-labelledby="contact-form">
+          <h2 id="contact-form" className="sr-only">
+            Contact Form
+          </h2>
+          <form ref={formRef} onSubmit={handleSubmit} aria-label="Contact Form">
+            <h2>Send a Message</h2>
 
-          <label htmlFor="name">
-            Name
-            <input
-              type="text"
-              name="name"
-              id="name"
-              value={formData.name}
-              onChange={handleChange}
-              required
-              aria-required="true"
-            />
-          </label>
+            <label htmlFor="name">
+              Name
+              <input
+                type="text"
+                name="name"
+                id="name"
+                required
+                aria-required="true"
+              />
+            </label>
 
-          <label htmlFor="email">
-            Email
-            <input
-              type="email"
-              name="email"
-              id="email"
-              value={formData.email}
-              onChange={handleChange}
-              required
-              aria-required="true"
-            />
-          </label>
+            <label htmlFor="email">
+              Email
+              <input
+                type="email"
+                name="email"
+                id="email"
+                required
+                aria-required="true"
+              />
+            </label>
 
-          <label htmlFor="message">
-            Message
-            <textarea
-              name="message"
-              id="message"
-              value={formData.message}
-              onChange={handleChange}
-              required
-              aria-required="true"
-            />
-          </label>
+            <label htmlFor="message">
+              Message
+              <textarea
+                name="message"
+                id="message"
+                required
+                aria-required="true"
+              ></textarea>
+            </label>
 
-          <input type="submit" value="Send" aria-label="Send message" />
-        </form>
-      </section>
+            <input type="submit" value="Send" aria-label="Send message" />
+          </form>
+        </section>
+      ) : (
+        <div className="thankYou">
+          <h2>Thank you!</h2>
+          <p>Your message has been sent. I will get back to you shortly.</p>
+          <Link href="/" className="ctaBtn">
+            Back to Home
+          </Link>
+        </div>
+      )}
+
+      <div className="ctaButtons">
+        <Link href="/ai-blockchain-projects" className="ctaBtn">
+          Explore Our Projects
+        </Link>
+        <Link href="/onboard" className="ctaBtnOutline">
+          Start Your Project
+        </Link>
+      </div>
 
       <footer>
         <blockquote>
@@ -242,6 +270,15 @@ export default function ContactPage() {
         }
         input[type='submit']:hover {
           background-color: #0088cc;
+        }
+        .thankYou {
+          text-align: center;
+          padding: 2rem;
+          border-radius: 12px;
+          background: #f0f8ff;
+          color: #003366;
+          max-width: 600px;
+          margin: auto;
         }
         blockquote {
           margin-top: 3rem;

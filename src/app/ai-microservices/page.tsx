@@ -164,6 +164,10 @@ export default function ServicesPage() {
           enterprises turn complex problems into elegant, scalable systems.
         </p>
       </header>
+      <div className="ctaButtons">
+                  <Link href="/ai-blockchain-projects" className="ctaBtn">Explore Our Projects</Link>
+                  <Link href="/onboard" className="ctaBtnOutline">Start Your Project</Link>
+                </div>
 
       <section aria-labelledby="core-services">
         <h2 id="core-services" className="offer">
@@ -220,6 +224,9 @@ export default function ServicesPage() {
             and real results.
           </p>
         </section>
+        <div className="ctaButtons">
+                  <Link href="/onboard" className="ctaBtnOutline">Start Your Project</Link>
+                </div>
         <div className="ctaSection sec">
           <Link href="/contact" className="ctaBtn" aria-label="Contact Ithoka Microsystems">
             Get in Touch

@@ -156,6 +156,9 @@ export default function ProjectsPage() {
             Real work. Real traction. These are the projects we are building, shipping, and evolving across AI, Blockchain, and Fullstack systems.
           </p>
         </header>
+        <div className="ctaButtons">
+            <Link href="/onboard" className="ctaBtnOutline">Start Your Project</Link>
+          </div>
 
         {Object.keys(projects).map((category) => (
           <section key={category} className="categorySection">
@@ -193,6 +196,10 @@ export default function ProjectsPage() {
             </div>
           </section>
         ))}
+
+        <div className="ctaButtons">
+                    <Link href="/onboard" className="ctaBtnOutline">Start Your Project</Link>
+                  </div>
 
         <section className="ctaSection" itemScope itemType="https://schema.org/Organization">
           <h2>Partner With Ithoka Microsystems</h2>

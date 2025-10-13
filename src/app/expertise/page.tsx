@@ -91,6 +91,10 @@ export default function SkillsPage() {
           Core technologies and practices powering Ithoka Microsystems — AI, Blockchain, Fullstack engineering, and innovation.
         </p>
       </header>
+      <div className="ctaButtons" style={{marginBottom: '20px'}}>
+                  <Link href="/ai-blockchain-projects" className="ctaBtn">Explore Our Projects</Link>
+                  <Link href="/onboard" className="ctaBtnOutline">Start Your Project</Link>
+                </div>
 
       {Object.keys(skills).map((category) => (
         <section key={category} className="categorySection" aria-labelledby={`heading-${category}`}>
@@ -110,14 +114,19 @@ export default function SkillsPage() {
           </ul>
         </section>
       ))}
+      <div className="ctaButtons">
+                  <Link href="/onboard" className="ctaBtnOutline">Start Your Project</Link>
+                </div>
 
       <section className="ctaSection">
         <h2>Work With Us</h2>
         <p>Ready to collaborate or start a new project? Let’s build impactful solutions together.</p>
+      </section>
+      <div className="ctaSection">
         <Link href="/contact" className="ctaBtn" aria-label="Contact Ithoka Microsystems to start a project">
           Get in Touch
         </Link>
-      </section>
+      </div>
 
       {/* --- Structured Data --- */}
       <script
@@ -150,6 +159,7 @@ export default function SkillsPage() {
         .skillTitle {
           font-size: 2.5rem;
           color: #00aaff;
+          margin: 1rem;
         }
         .skillSubtitle {
           font-size: 1.2rem;

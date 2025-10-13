@@ -79,10 +79,10 @@ export default function Header() {
                       }}
                     >
                       <li className="menuItem"><Link href="/">Home</Link></li>
-                      <li className="menuItem"><Link href="/founder-story">About Ithoka Microsystems</Link></li>
-                      <li className="menuItem"><Link href="/ai-microservices">AI & Blockchain Services</Link></li>
+                      <li className="menuItem"><Link href="/founder-story">About Us</Link></li>
+                      <li className="menuItem"><Link href="/ai-microservices">Services</Link></li>
                       <li className="menuItem"><Link href="/ai-blockchain-projects">Client & R&D Projects</Link></li>
-                      <li className="menuItem"><Link href="/expertise">Technical Expertise</Link></li>
+                      <li className="menuItem"><Link href="/expertise">Expertise</Link></li>
                       <li className="menuItem"><Link href="/team">Core Team</Link></li>
                       <li className="menuItem"><Link href="/contact">Contact Us</Link></li>
                     </ul>,
@@ -100,10 +100,10 @@ export default function Header() {
           >
             <ul className="inlineMenu">
               <li><Link href="/">Home</Link></li>
-              <li><Link href="/founder-story">About Ithoka Microsystems</Link></li>
-              <li><Link href="/ai-microservices">AI & Blockchain Services</Link></li>
+              <li><Link href="/founder-story">About Us</Link></li>
+              <li><Link href="/ai-microservices">Services</Link></li>
               <li><Link href="/ai-blockchain-projects">Client & R&D Projects</Link></li>
-              <li><Link href="/expertise">Technical Expertise</Link></li>
+              <li><Link href="/expertise">Expertise</Link></li>
               <li><Link href="/team">Core Team</Link></li>
               <li><Link href="/contact">Contact Us</Link></li>
             </ul>
