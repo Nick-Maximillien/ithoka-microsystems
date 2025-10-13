@@ -32,7 +32,7 @@ export default function Onboard() {
     <main className="onboardPage">
       <div className="heade">
         <h1>Start Your Project</h1>
-        <p>Fill in the details below and I will get back to you promptly.</p>
+        <p style={{ color: "white", margin: "20px" }}>Fill in the details below and we will get back to you promptly.</p>
       </div>
 
       {!submitted ? (
@@ -75,7 +75,7 @@ export default function Onboard() {
             placeholder="Budget / Approx. Cost"
           ></textarea>
 
-          <button type="submit" className="ctaBtn">
+          <button type="submit" className="ctaBtn" style={{ margin: "20px 0" }}>
             Submit Your Project
           </button>
         </form>
@@ -83,7 +83,9 @@ export default function Onboard() {
         <div className="thankYou">
           <h2>Thank you!</h2>
           <p>Your project details have been sent. I will review them and get back to you shortly.</p>
+          <div>
           <Link href="/" className="ctaBtn">Back to Home</Link>
+          </div>
         </div>
       )}
 
