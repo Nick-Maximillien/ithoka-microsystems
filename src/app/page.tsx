@@ -66,8 +66,8 @@ export default function HomePage() {
     "@context": "https://schema.org",
     "@type": "Organization",
     "name": "Ithoka Microsystems",
-    "url": "https://ithoka.vercel.app", // Replace with your actual domain
-    "logo": "https://ithoka.vercel.app/images/logo.jpg",
+    "url": "https://ithoka-microsystems.vercel.app", // Replace with your actual domain
+    "logo": "https://ithoka-microsystems.vercel.app/images/logo.jpg",
     "sameAs": [
       "https://www.linkedin.com/in/nicholas-muthoki", 
       "https://github.com/Nick-Maximillien"
@@ -80,10 +80,10 @@ export default function HomePage() {
     "@context": "https://schema.org",
     "@type": "WebSite",
     "name": "Ithoka Microsystems",
-    "url": "https://ithoka.vercel.app",
+    "url": "https://ithoka-microsystems.vercel.app",
     "potentialAction": {
       "@type": "SearchAction",
-      "target": "https://ithoka.vercel.app/search?q={search_term_string}",
+      "target": "https://ithoka-microsystems.vercel.app/search?q={search_term_string}",
       "query-input": "required name=search_term_string"
     }
   };
@@ -97,6 +97,32 @@ export default function HomePage() {
             __html: JSON.stringify([orgSchema, websiteSchema]),
           }}
         />
+        {/* Canonical & Meta */}
+        <link rel="canonical" href="https://ithoka-microsystems.vercel.app/" />
+        <title>Ithoka Microsystems | AI & Blockchain Studio</title>
+        <meta
+          name="description"
+          content="Ithoka Microsystems is a lean AI & Blockchain studio building practical, smart solutions for real-world problems."
+        />
+
+        {/* Open Graph */}
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://ithoka-microsystems.vercel.app/" />
+        <meta property="og:title" content="Ithoka Microsystems | AI & Blockchain Studio" />
+        <meta
+          property="og:description"
+          content="We build AI & Blockchain systems that solve real-world problems."
+        />
+        <meta property="og:image" content="https://ithoka-microsystems.vercel.app/images/logo.jpg" />
+
+        {/* Twitter */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Ithoka Microsystems | AI & Blockchain Studio" />
+        <meta
+          name="twitter:description"
+          content="We build AI & Blockchain systems that solve real-world problems."
+        />
+        <meta name="twitter:image" content="https://ithoka-microsystems.vercel.app/images/logo.jpg" />
       </Head>
 
       {/* Hero Section */}

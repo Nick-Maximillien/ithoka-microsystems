@@ -26,13 +26,13 @@ export const metadata: Metadata = {
     title: "Ithoka Microsystems | AI & Blockchain Consulting",
     description:
       "AI & Blockchain Builder — Showcasing Agrosight, AutoBooks AI, blockchain solutions, and Rust DeFi engine.",
-    url: "https://ithoka.vercel.app",
+    url: "https://ithoka-microsystems.vercel.app",
     siteName: "Ithoka Microsystems",
     locale: "en_US",
     type: "website",
     images: [
       {
-        url: "https://ithoka.vercel.app/logos/logo.png",
+        url: "https://ithoka-microsystems.vercel.app/logos/logo.png",
         width: 1200,
         height: 630,
         alt: "Ithoka Microsystems — AI & Blockchain Engineering",
@@ -45,11 +45,11 @@ export const metadata: Metadata = {
     description:
       "AI & Blockchain Builder — Showcasing Agrosight, AutoBooks AI, blockchain solutions, and Rust DeFi engine.",
     creator: "@nicholasmuthoki",
-    images: ["https://ithoka.vercel.app/logos/logo.png"],
+    images: ["https://ithoka-microsystems.vercel.app/logos/logo.png"],
   },
-  metadataBase: new URL("https://ithoka.vercel.app"),
+  metadataBase: new URL("https://ithoka-microsystems.vercel.app"),
   alternates: {
-    canonical: "https://ithoka.vercel.app",
+    canonical: "https://ithoka-microsystems.vercel.app",
   },
   robots: {
     index: true,
@@ -81,8 +81,8 @@ export default function RootLayout({
     "@context": "https://schema.org",
     "@type": "Organization",
     name: "Ithoka Microsystems",
-    url: "https://ithoka.vercel.app",
-    logo: "https://ithoka.vercel.app/logos/logo.png",
+    url: "https://ithoka-microsystems.vercel.app",
+    logo: "https://ithoka-microsystems.vercel.app/logos/logo.png",
     description:
       "AI & Blockchain engineering firm based in Kenya, building lean and decentralized systems.",
     contactPoint: [
@@ -104,11 +104,11 @@ export default function RootLayout({
   const jsonLdWebsite = {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    url: "https://ithoka.vercel.app",
+    url: "https://ithoka-microsystems.vercel.app",
     name: "Ithoka Microsystems",
     potentialAction: {
       "@type": "SearchAction",
-      target: "https://ithoka.vercel.app/search?q={search_term_string}",
+      target: "https://ithoka-microsystems.vercel.app/search?q={search_term_string}",
       "query-input": "required name=search_term_string",
     },
   };
@@ -121,7 +121,7 @@ export default function RootLayout({
         "@type": "ListItem",
         position: 1,
         name: "Home",
-        item: "https://ithoka.vercel.app",
+        item: "https://ithoka-microsystems.vercel.app",
       },
     ],
   };
