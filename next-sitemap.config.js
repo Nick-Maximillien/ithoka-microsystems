@@ -1,7 +1,7 @@
 // next-sitemap.config.js
 /** @type {import('next-sitemap').IConfig} */
 const config = {
-  siteUrl: 'https://ithoka.vercel.app',
+  siteUrl: 'https://ithoka-microsystems.vercel.app',
   generateRobotsTxt: true,
   sitemapSize: 7000,
   changefreq: 'weekly',
@@ -23,7 +23,7 @@ const config = {
         allow: '/',
       },
     ],
-    additionalSitemaps: ['https://ithoka.vercel.app/sitemap.xml'],
+    additionalSitemaps: ['https://ithoka-microsystems.vercel.app/sitemap.xml'],
   },
 };
 
